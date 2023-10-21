@@ -24,7 +24,7 @@ public class Decoder {
 
         if(isEquals){
             System.out.println("This word is palindrome");
-            return str;
+            return str.replaceAll(" ", "");
         }
         return null;
     }
